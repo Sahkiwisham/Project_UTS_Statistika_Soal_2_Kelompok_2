@@ -24,6 +24,10 @@ Aplikasi web statis interaktif untuk mempelajari dan menghitung probabilitas das
   - Klasifikasi biner dengan Teorema Bayes.
   - Simulasi frekuensi alami untuk 10.000 kasus.
   - Preset studi kasus phishing, medis, dan pabrik.
+- **Statistik Deskriptif**
+  - Mean, median, modus, kuartil, rentang, dan nilai ekstrem.
+  - Varians serta standar deviasi untuk sampel dan populasi.
+  - Diagram frekuensi dari data yang dimasukkan.
 - Mode gelap permanen dan tampilan responsif.
 - Halaman gabungan dengan navigasi berbasis tab.
 
@@ -36,7 +40,8 @@ Aplikasi web statis interaktif untuk mempelajari dan menghitung probabilitas das
 ├── pages/
 │   ├── modul-a.html           # Halaman Modul A
 │   ├── modul-b.html           # Halaman Modul B
-│   └── probabilitas.html      # Halaman gabungan kedua modul
+│   ├── probabilitas.html      # Halaman gabungan kedua modul
+│   └── statistik-deskriptif.html # Kalkulator statistik deskriptif
 └── assets/
     ├── css/
     │   └── style.css          # Gaya aplikasi

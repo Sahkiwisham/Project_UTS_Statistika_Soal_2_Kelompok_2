@@ -5,6 +5,13 @@
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /* Custom Scrollbar - Dark & Light Mode */
@@ -70,4 +77,54 @@ html.dark .card-shadow {
 
 .animate-fade-in {
   animation: fadeIn 0.25s ease-out forwards;
+}
+
+@media (max-width: 640px) {
+  header h1 {
+    font-size: 0.95rem;
+  }
+
+  #btn-link-deskriptif {
+    width: 37px;
+    height: 37px;
+    justify-content: center;
+    padding: 0;
+  }
+
+  #btn-link-deskriptif span {
+    display: none;
+  }
+
+  header nav[aria-label="Tabs Modul"] {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  header nav[aria-label="Tabs Modul"]::-webkit-scrollbar {
+    display: none;
+  }
+
+  header nav[aria-label="Tabs Modul"] > a,
+  header nav[aria-label="Tabs Modul"] > button {
+    flex-shrink: 0;
+  }
+
+  #toast-container {
+    left: 1rem;
+    right: 1rem;
+  }
+
+  #toast-container > div {
+    width: 100%;
+  }
+
+  main,
+  main > div,
+  section,
+  article {
+    max-width: 100%;
+  }
 }

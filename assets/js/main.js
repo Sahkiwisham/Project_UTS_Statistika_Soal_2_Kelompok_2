@@ -112,16 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (condPB) condPB.addEventListener('input', calculateConditional);
   if (condPAB) condPAB.addEventListener('input', calculateConditional);
 
-  // 4. Link Halaman Statistik Deskriptif
-  const btnLinkDeskriptif = document.getElementById('btn-link-deskriptif');
-  if (btnLinkDeskriptif) {
-    btnLinkDeskriptif.addEventListener('click', (e) => {
-      e.preventDefault();
-      showToast('Menghubungkan ke Halaman Statistik Deskriptif...', 'info');
-    });
-  }
-
-  // 5. Modal Dialog Panduan & Rumus
+  // 4. Modal Dialog Panduan & Rumus
   const modalInfo = document.getElementById('modal-info');
   const btnToggleInfo = document.getElementById('btn-toggle-info');
   const btnCloseModal = document.getElementById('btn-close-modal');
