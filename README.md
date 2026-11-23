@@ -6,7 +6,7 @@ Aplikasi web statis interaktif untuk mempelajari dan menghitung probabilitas das
 
 # Anggota :
 - William Christian Kurniawan - 2503010023
-- M. Sahki Wisham Fauzan - 2503010033
+- M Sahki Wisham Fauzan - 2503010033
 - Nurul Arip Mauludin - 2503010027
 - Melani Nurul Fitriani - 25030100
 - Nenny Maryani - 25030100
